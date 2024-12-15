@@ -1,0 +1,83 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+   
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.s1{
+    background-color: #061d2c;
+    padding-bottom: 70px;
+  }
+  .s1_p {
+      margin-left: 44%;
+      text-align: center;
+      background-color: #184665 ;
+      width: 210px;
+      border-radius: 70px;
+      font-size: 25px;
+      padding: 13px 0;
+      margin-top: -15px;
+     
+    }
+
+/* Profiles section styles */
+.profiles-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color:#07273c ;
+}
+
+.profiles-section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* Profiles container */
+.profiles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Individual profile card styles */
+.profile-card {
+    width: 150px;
+    padding: 60px;
+    background-color: #1d3557;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    transition: transform 0.3s ease;
+    
+}
+
+.profile-card:hover {
+    transform: scale(1.05);
+}
+
+.profile-card img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 15px;
+    
+    border-radius: 50%;
+}
+.profile-card img:hover{
+ border: 1px solid rgb(227, 223, 223);
+}
+
+.profile-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #fca311;
+}
+
+.profile-card p {
+    font-size: 14px;
+    margin: 0;
+    color: #a8dadc;
+}
